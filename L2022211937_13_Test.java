@@ -9,6 +9,7 @@ public class L2022211937_13_Test {
     private final Solution solution = new Solution();
 
     //验证示例1
+    //这是样例
     @Test
     public void testSortColors_Example1() {
         int[] nums = {2, 0, 2, 1, 1, 0};
@@ -18,6 +19,7 @@ public class L2022211937_13_Test {
     }
 
     //验证示例2
+    //这是单个元素
     @Test
     public void testSortColors_Example2() {
         int[] nums = {2, 0, 1};
@@ -27,6 +29,7 @@ public class L2022211937_13_Test {
     }
 
     //验证全0
+    //这是单个颜色
     @Test
     public void testSortColors_AllZeros() {
         int[] nums = {0, 0, 0};
@@ -36,6 +39,7 @@ public class L2022211937_13_Test {
     }
 
     //验证全1
+    //这是单个颜色
     @Test
     public void testSortColors_AllOnes() {
         int[] nums = {1, 1, 1};
@@ -45,6 +49,7 @@ public class L2022211937_13_Test {
     }
 
     //验证全2
+    //这是单个颜色
     @Test
     public void testSortColors_AllTwos() {
         int[] nums = {2, 2, 2};
@@ -54,6 +59,7 @@ public class L2022211937_13_Test {
     }
 
     //验证空数组能正确处理
+    //这是空数组
     @Test
     public void testSortColors_EmptyArray() {
         int[] nums = {};
